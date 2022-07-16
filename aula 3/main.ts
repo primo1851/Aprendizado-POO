@@ -1,8 +1,6 @@
 import Personagem from "./Personagem";
 import prompt from "prompt-sync";
 
-
-
 let person: Personagem = new Personagem("Sansa Stark", 100, 40, 20, 20);
 
 let teclado = prompt();
